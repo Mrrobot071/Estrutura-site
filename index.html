@@ -7,6 +7,20 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
   <title>LUKFLIX</title>
   <style>
+  html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%; /* Garante que a altura seja 100% da viewport */
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+.container {
+  flex: 1; /* Faz a área principal ocupar o espaço disponível */
+}
     header {
       background-color: black;
       text-align: center;
@@ -55,7 +69,7 @@
       border-radius: 50%;
       padding: 5px;
       text-decoration: none;
-    }
+    } 
   </style>
 </head>
 <body>
@@ -65,7 +79,7 @@
     <h2>Subtitulo do projeto</h2>
   </header>   
 
-  <footer>
+    <footer>
     <p>Copyright © 2025</p>
     <p>Desenvolvido por Lucas Nathan</p>
     <ul>
